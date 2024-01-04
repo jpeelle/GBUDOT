@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aap>
+    <tasklist>
+        
+        <initialisation>	
+            <module><name>aamod_study_init</name></module>
+        </initialisation>
+		
+        <main>      
+        
+        <module><name>aamod_dot_fromnifti</name></module> 
+        
+        <!-- generate QA plots for review -->
+        
+        <module><name>aamod_QA</name></module> 
+ 
+        <!-- ISC using all data -->
+        
+        <module><name>aamod_intersubject_correlation</name></module>   
+        <module><name>aamod_render</name></module>
+         
+        <!-- repeat ISC using GVTD outlier exclusion -->
+        
+        <module><name>aamod_intersubject_correlation</name></module>
+        <module><name>aamod_render</name></module>
+
+       </main>
+       
+    </tasklist>
+</aap>
+    
+       
+       
