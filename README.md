@@ -8,4 +8,4 @@ In `code`:
 * `aa_analysis.xml` lists the modules run for the analysis.
 
 
-Analyses make use of the automatic [analysis processing](https://automaticanalysis.github.io/about/) environment.
+Analyses make use of the [automatic analysis](https://automaticanalysis.github.io/about/) processing environment.
